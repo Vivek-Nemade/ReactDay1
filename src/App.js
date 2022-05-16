@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MobileOS ,{Tag1} from './components/MobileOS';
+import Manufacturer,{Tag2} from './components/Manufacturer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <Tag1></Tag1>
+        <MobileOS></MobileOS>
+        <Tag2></Tag2>
+        <Manufacturer></Manufacturer>
+        
+      
     </div>
   );
 }
